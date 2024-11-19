@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep SkibidiCraft.pl</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            border-bottom: 2px solid #444;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .main {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .store-item {
+            background-color: #222;
+            border: 2px solid #444;
+            padding: 20px;
+            margin: 20px auto;
+            width: 300px;
+            border-radius: 10px;
+        }
+        .store-item h2 {
+            margin-top: 0;
+        }
+        .store-item button {
+            background-color: #28a745;
+            border: none;
+            padding: 10px 20px;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .store-item button:hover {
+            background-color: #218838;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #444;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Nagłówek -->
+    <header>
+        <h1>Sklep SkibidiCraft.pl</h1>
+        <nav>
+            <a href="#shop">Sklep</a>
+        </nav>
+    </header>
+
+    <!-- Główna sekcja -->
+    <div class="main">
+        <h2>Witamy w naszym sklepie!</h2>
+        <p>Wybierz swoją rangę i wspieraj nasz serwer.</p>
+    </div>
+
+    <!-- Sklep -->
+    <div id="shop" class="main">
+        <div class="store-item">
+            <h2>Ranga VIP</h2>
+            <p>Cena: 10 PLN</p>
+            <button>Kup teraz</button>
+        </div>
+        <div class="store-item">
+            <h2>Ranga Premium</h2>
+            <p>Cena: 25 PLN</p>
+            <button>Kup teraz</button>
+        </div>
+        <div class="store-item">
+            <h2>Ranga Elite</h2>
+            <p>Cena: 50 PLN</p>
+            <button>Kup teraz</button>
+        </div>
+    </div>
+
+    <!-- Stopka -->
+    <footer>
+       <p>Dołącz do naszego <a href="https://discord.gg/kHA4e6nd" target="_blank" style="color: #0000EE;">Discorda</a></p>
+       <p>&copy; 2024 SkibidiCraft.pl</p>
+    </footer>
+</body>
+</html>
